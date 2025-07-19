@@ -1,12 +1,12 @@
 import React from 'react'
 import './ReactLearnTwoApp.css'
-import { TanStackApp } from './TanStack/TanStackApp'
-import { ReactRouterApp } from './ReactRouter/ReactRouterApp'
+import { ReactReduxApp } from './ReactRedux/ReactReduxApp'
 
 function ReactLearnTwoApp() {
     return (
         <React.Fragment>
-            <TanStackApp />
+            <ReactReduxApp />
+            {/* <TanStackApp /> */}
             {/* <DynamicValueApp /> */}
             {/* <ConditionalValueApp /> */}
             {/* <ComponentsApp /> */}
@@ -24,7 +24,7 @@ function ReactLearnTwoApp() {
             {/* <CreateCustomHooks /> */}
             {/* <UseOfReactMemoApp /> */}
             {/* <UseOfHooksApp /> */}
-            <ReactRouterApp />
+            {/* <ReactRouterApp /> */}
         </React.Fragment>
     )
 }
