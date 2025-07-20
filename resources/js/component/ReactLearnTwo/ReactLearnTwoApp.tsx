@@ -1,11 +1,12 @@
 import React from 'react'
 import './ReactLearnTwoApp.css'
 import { ReactReduxApp } from './ReactRedux/ReactReduxApp'
+import UseOfHooksApp from './UseOfHooks/UseOfHooksApp'
 
 function ReactLearnTwoApp() {
     return (
         <React.Fragment>
-            <ReactReduxApp />
+            {/* <ReactReduxApp /> */}
             {/* <TanStackApp /> */}
             {/* <DynamicValueApp /> */}
             {/* <ConditionalValueApp /> */}
@@ -23,7 +24,7 @@ function ReactLearnTwoApp() {
             {/* <ContextAPIUseContextApp /> */}
             {/* <CreateCustomHooks /> */}
             {/* <UseOfReactMemoApp /> */}
-            {/* <UseOfHooksApp /> */}
+            <UseOfHooksApp />
             {/* <ReactRouterApp /> */}
         </React.Fragment>
     )
