@@ -1,5 +1,6 @@
 import React from 'react'
-import UseOutletContextHooks from './UseOutletContext/UseOutletContextHooks'
+import UseLocation from './UseLocation/UseLocation'
+
 function UseOfHooksApp() {
   return (
     <React.Fragment>
@@ -11,7 +12,8 @@ function UseOfHooksApp() {
       {/* <UseRefHooks /> */}
       {/* <UseIdHooks /> */}
       {/* <UseNavigateHooks /> */}
-      <UseOutletContextHooks />
+      {/* <UseOutletContextHooks /> */}
+      <UseLocation />
     </React.Fragment>
   )
 }
